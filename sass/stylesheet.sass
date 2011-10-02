@@ -5,24 +5,44 @@
 @import compass/reset
 
 // Compass extension
-$pictos-free-spacing: 50px
-@import "../../pictos-free/stylesheets/pictos-free"
+$pictos-free-black-spacing: 50px
+@import "../../pictos-free/stylesheets/pictos-free-black"
 
-.pictos-free-sprite
-  text-indent: -99999px
+// Compass extension
+$pictos-free-white-spacing: 50px
+@import "../../pictos-free/stylesheets/pictos-free-white"
+
+body
+  &.white
+    background: #354a5a
+  &.black
+    background: #fff
 
 ul
   +pie-clearfix
   li
     +float-left
-    +opacity(.1)
-    &:hover
-      +opacity(1)
+    +transition-property(all)
+    +transition-duration(1s)
     a
       +border-radius(72px)
-      +box-shadow(rgba(#000,0.3) 2px 2px 2px)
-      border: 5px solid #fff
       cursor: pointer
       display: block
       height: 72px
       width: 72px
+      text-indent: -99999px
+  .white &
+    li
+      +opacity(.02)
+      &:hover
+        +opacity(1)
+      a:hover
+        +box-shadow(rgba(#000,0.3) 0 0 30px 20px)
+
+  .black &
+    li
+      +opacity(.02)
+      &:hover
+        +opacity(1)
+      a:hover
+        +box-shadow(rgba(#000,0.3) 0 0 10px 2px)
