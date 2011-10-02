@@ -1,0 +1,182 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+.pictos-free-sprite, .pictos-free-icn1, .pictos-free-icn10, .pictos-free-icn11, .pictos-free-icn12, .pictos-free-icn13, .pictos-free-icn14, .pictos-free-icn15, .pictos-free-icn16, .pictos-free-icn17, .pictos-free-icn18, .pictos-free-icn19, .pictos-free-icn2, .pictos-free-icn20, .pictos-free-icn21, .pictos-free-icn3, .pictos-free-icn4, .pictos-free-icn5, .pictos-free-icn6, .pictos-free-icn7, .pictos-free-icn8, .pictos-free-icn9 {
+  background: url('/images/pictos-free-se51e7d12a4.png') no-repeat;
+}
+
+.pictos-free-icn1 {
+  background-position: 0 0;
+}
+
+.pictos-free-icn10 {
+  background-position: 0 -122px;
+}
+
+.pictos-free-icn11 {
+  background-position: 0 -245px;
+}
+
+.pictos-free-icn12 {
+  background-position: 0 -368px;
+}
+
+.pictos-free-icn13 {
+  background-position: 0 -490px;
+}
+
+.pictos-free-icn14 {
+  background-position: 0 -613px;
+}
+
+.pictos-free-icn15 {
+  background-position: 0 -736px;
+}
+
+.pictos-free-icn16 {
+  background-position: 0 -859px;
+}
+
+.pictos-free-icn17 {
+  background-position: 0 -982px;
+}
+
+.pictos-free-icn18 {
+  background-position: 0 -1105px;
+}
+
+.pictos-free-icn19 {
+  background-position: 0 -1228px;
+}
+
+.pictos-free-icn2 {
+  background-position: 0 -1351px;
+}
+
+.pictos-free-icn20 {
+  background-position: 0 -1473px;
+}
+
+.pictos-free-icn21 {
+  background-position: 0 -1596px;
+}
+
+.pictos-free-icn3 {
+  background-position: 0 -1719px;
+}
+
+.pictos-free-icn4 {
+  background-position: 0 -1841px;
+}
+
+.pictos-free-icn5 {
+  background-position: 0 -1963px;
+}
+
+.pictos-free-icn6 {
+  background-position: 0 -2086px;
+}
+
+.pictos-free-icn7 {
+  background-position: 0 -2209px;
+}
+
+.pictos-free-icn8 {
+  background-position: 0 -2332px;
+}
+
+.pictos-free-icn9 {
+  background-position: 0 -2455px;
+}
+
+.pictos-free-sprite, .pictos-free-icn1, .pictos-free-icn10, .pictos-free-icn11, .pictos-free-icn12, .pictos-free-icn13, .pictos-free-icn14, .pictos-free-icn15, .pictos-free-icn16, .pictos-free-icn17, .pictos-free-icn18, .pictos-free-icn19, .pictos-free-icn2, .pictos-free-icn20, .pictos-free-icn21, .pictos-free-icn3, .pictos-free-icn4, .pictos-free-icn5, .pictos-free-icn6, .pictos-free-icn7, .pictos-free-icn8, .pictos-free-icn9 {
+  text-indent: -99999px;
+}
+
+ul {
+  *zoom: 1;
+}
+ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul li {
+  -moz-border-radius: 72px;
+  -webkit-border-radius: 72px;
+  -o-border-radius: 72px;
+  -ms-border-radius: 72px;
+  -khtml-border-radius: 72px;
+  border-radius: 72px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px;
+  -o-box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px;
+  display: inline;
+  float: left;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=10);
+  opacity: 0.1;
+  border: 5px solid white;
+  cursor: pointer;
+  height: 72px;
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 72px;
+}
+ul li:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}

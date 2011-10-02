@@ -1,0 +1,30 @@
+// Compass
+@import compass
+
+// CSS Reset
+@import compass/reset
+
+// Compass extension
+$pictos-free-spacing: 50px
+@import "../../stylesheets/pictos-free"
+
+body
+
+.pictos-free-sprite
+  text-indent: -99999px
+
+ul
+  +pie-clearfix
+  li
+    +border-radius(72px)
+    +box-shadow(rgba(#000,0.3) 2px 2px 2px)
+    +float-left
+    +opacity(.1)
+    border: 5px solid #fff
+    cursor: pointer
+    height: 72px
+    margin-right: 0
+    margin-bottom: 0
+    width: 72px
+    &:hover
+      +opacity(1)
