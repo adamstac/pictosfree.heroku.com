@@ -1,5 +1,7 @@
 # Compass Configuration
 
+require 'pictos-free'
+
 # HTTP paths
 http_path             = '/'
 http_stylesheets_path = '/stylesheets'
