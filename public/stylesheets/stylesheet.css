@@ -230,6 +230,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-position: 0 -2455px;
 }
 
+body {
+  overflow: hidden;
+}
 body.white {
   background: #354a5a;
 }
